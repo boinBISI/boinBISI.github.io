@@ -9,17 +9,17 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Benzene Kim
-subtitle: "Developing blog"
-email: davidkim020409@gmail.com
-name: JS Kim
+title: BISI
+subtitle: "BoIn Science Investigation"
+email: bisiboinhighschool@naver.com
+name: BISI
 description: >
-  IoT and HID developer.
+  The Best Science Club
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: # the subpath of your site, e.g. /blog/
-url: "http://BenzeneKim.github.io" # the base hostname & protocol for your site
+url: "http://boinBISI.github.io" # the base hostname & protocol for your site
 cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"
 
@@ -79,15 +79,15 @@ social:
 
   - name: Facebook
     icon: facebook
-    username: BenzeneKim
-    url: https://www.facebook.com/profile.php?id=100006982658131
+    username: BISI-A
+    url: https://web.facebook.com/BoinBisiA/
     desc: Friend me on Facebook
     share: true
 
   - name: GitHub
     icon: github
-    username: BenzeneKim
-    url: https://github.com/BenezeneKim
+    username: BOINBISI
+    url: https://github.com/boinBISI
     desc: Fork me on GitHub
     share: true
 
@@ -110,7 +110,7 @@ social:
     username: BenzeneKim
     url: https://m.youtube.com/channel/UC6HOs4nRuhpBgd0AXL96gmg
     desc: Subscribe on YouTube
-    share: true
+    share: false
 
   - name: Instagram
     icon: instagram
