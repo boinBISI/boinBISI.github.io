@@ -37,7 +37,7 @@ cover:  "/assets/instacode.png"
   >> + CoDrone.FlightEvent(Landing); - 착륙
   
 >CoDroneClass::Control(); - 위에 입력한 Throttle, Pitch, Roll, Yaw 값을 드론에 전송
-  >><br>ex
+  >>ex
   >><br>pitch = 100;
   >><br>CoDrone.Control();
   >><br>delay(500);
