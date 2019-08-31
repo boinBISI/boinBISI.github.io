@@ -33,8 +33,8 @@ cover:  "/assets/instacode.png"
 > CodeloaderBegin(int \_sec); - int안에 입력한 시간 경과 후 자동으로 착륙
 
 > CoDroneClass::FlightEvent();  
-  + CoDrone.FlightEvent(TakeOff); - 이륙(5초 정도 지속하는 것이 안정화에 도움이 됨)
-  + CoDrone.FlightEvent(Landing); - 착륙
+  >> + CoDrone.FlightEvent(TakeOff); - 이륙(5초 정도 지속하는 것이 안정화에 도움이 됨)
+  >> + CoDrone.FlightEvent(Landing); - 착륙
   
 >CoDroneClass::Control(); - 위에 입력한 Throttle, Pitch, Roll, Yaw 값을 드론에 전송</br>
   >><br>ex</br>
