@@ -33,14 +33,14 @@ cover:  "/assets/instacode.png"
 > CodeloaderBegin(int \_sec); - int안에 입력한 시간 경과 후 자동으로 착륙
 
 > CoDroneClass::FlightEvent();  
-  > CoDrone.FlightEvent(TakeOff); - 이륙(5초 정도 지속하는 것이 안정화에 도움이 됨)
-  > CoDrone.FlightEvent(Landing); - 착륙
+  >> CoDrone.FlightEvent(TakeOff); - 이륙(5초 정도 지속하는 것이 안정화에 도움이 됨)</br>
+  >> CoDrone.FlightEvent(Landing); - 착륙
   
- >CoDroneClass::Control(); - 위에 입력한 Throttle, Pitch, Roll, Yaw 값을 드론에 전송
-  >ex</br>
-  pitch = 100;</br>
-  CoDrone.Control();</br>
-  delay(500);</br>
+ >CoDroneClass::Control(); - 위에 입력한 Throttle, Pitch, Roll, Yaw 값을 드론에 전송</br>
+  >>ex</br>
+  >>pitch = 100;</br>
+  >>CoDrone.Control();</br>
+  >>delay(500);</br>
 
 ## 4. 결과
 로킷 브릭을 활용하여 여러 장애물을 통과하고 원하는 경로로 드론을 비행시킬 수 있었다. 헬스용 손잡이를 넘어 목표된 지점에 착륙할 수 있었고 키보드 버튼을 활용하여 드론의 비행을 제어하는 코딩을 할 수 있었다. 또한 코드로더를 사용하여 조금 더 안정된 비행을 할 수 있었다. 통신 방식이 블루투스 대신 유선 Serial 통신을 하다 보니 통신 딜레이가 없어 조금 더 정확한 움직임이 가능했다. 블루투스를 활용하여 비행할 경우 다수의 드론이 함께 비행하는 경우 명령이 제대로 가지 않는 경우가 있었다.
